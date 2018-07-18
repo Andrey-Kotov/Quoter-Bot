@@ -5,7 +5,7 @@
 
 import requests
 
-url = "https://api.telegram.org/bot394603106:AAGR3PRUyzrlpbJ0V1rPP5WDTKlNIM5IzZE/"
+url = "https://api.telegram.org/bot541983217:AAHol-4IN2kPSMUvnxJ0NgB2A4RYWuaBHjg"
 
 def get_updates_json(request):  
     response = requests.get(request + 'getUpdates')
@@ -22,9 +22,9 @@ def last_update(data):
 
 #Блок друзей
 I = 83036915
-love = 94481096
-ochpochmaks = -116315112 
-EKotov = 130903913
+#love = 94481096
+#ochpochmaks = -116315112 
+#EKotov = 130903913
 
 
 #Отправка сообщений
